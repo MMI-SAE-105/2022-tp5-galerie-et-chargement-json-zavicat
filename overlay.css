@@ -62,8 +62,13 @@
 
 .overlay>figure {
     /* No margin */
+    margin: 0;
     /* 1rem padding */
+    padding: 1rem;
     /* White border of 2px */
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
 }
 
 .overlay>figure>img {
